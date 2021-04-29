@@ -22,7 +22,7 @@ The link to the deployed application is : https://susanne85.github.io/susannesPo
 
 The front page of this portfoloio page allows the user to move the cursor over the picture and then a black and white picture of the original picture is displayed.
                                                 
-![Black and white picture of oringal web page](./assets/images/2_readme.png)
+![Black and white picture of oringal web page](./assets/images/1_readme.png)
 
 
 **Liscense**
