@@ -9,10 +9,6 @@
     font-size: 100%;
     --imgWidth: 40vw;
     --imgHeight: 40vh;
-    --companyWidth:85vw;
-    --companyHeight: 85vh;
-    --applicationsWidth:45%;
-    --applicationsHeight:45%;
 }
 
 header {
@@ -57,11 +53,6 @@ h3{
     animation-duration: 6s;
 }
 
-main {
-    display:flex;
-    flex-wrap:wrap;
-} 
-
 .columns {
     flex-wrap: wrap;
     justify-content: center;
@@ -80,33 +71,12 @@ main {
     font-weight: bold;
     height: 100%;
     width:100%;
-  }
-  
-.company {
-    display:flex;
-    flex-direction:column;
 }
-
-.company p{
-    display:inline-flex; 
-    flex:1 1 auto;
-    align-items:center;
-    flex-wrap: wrap;
-    font-size:1.5rem;
-    font-weight: bold;
-    margin-left:10px;
-}
-
 
 #aboutMe a{
     color:var(--textPink);
     font-size:1.5rem;
 } 
-
-#aboutMe img{
-    width:var(--imgWidth);
-    height:var(--imgHeight);
-}
 
 .old-pic{
     background-image: url(../Images/house-black.jpg)
@@ -116,8 +86,8 @@ main {
 }
 
 #hero{
-    width: 100%;
-    height: 85vh;
+    width: 100vw;
+    height: 100vh; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,7 +155,6 @@ footer h1{
     from {background-color:yellow;}
     to {background-color:green;}  
 }
-
 
 
 @media screen and (max-width: 410px) {
