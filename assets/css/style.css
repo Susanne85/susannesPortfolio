@@ -85,7 +85,7 @@ h3{
     background-image: url(../Images/house-colour.png);
 }
 
-#hero{
+#heroImg{
     width: 100vw;
     height: 100vh; 
     background-position: center;
@@ -114,18 +114,10 @@ footer {
     flex:1 1 auto;
     list-style-type: none;
     margin-top:15px;
-    font-size:2rem;
 }
 
 .icons li a {
    justify-content: space-evenly;
-    color:white;
-}
-
-footer h1{
-    font-size: 3em;
-    font-weight:400;
-    margin-bottom: .5em;
     color:white;
 }
 
@@ -145,38 +137,12 @@ footer h1{
     list-style-type: none;
     margin-right:15px; 
 }
-.fa-envelope-o {
+.fa-envelope {
     margin-right:10px; 
 }
-
 
 
 @keyframes example {
     from {background-color:yellow;}
     to {background-color:green;}  
-}
-
-
-@media screen and (max-width: 410px) {
-
-    nav {
-        flex-flow: column nowrap;
-    }
-    nav ul li {
-        display:inline;
-    }
-  
-  
-    .icons li{
-        font-size:1rem;
-    }
-}
-
-@media screen and (max-width:900px) {
-    nav {
-        flex-flow: column nowrap;
-    }
-    nav ul li {
-        display:inline;
-    }
 }

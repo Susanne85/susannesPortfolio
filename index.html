@@ -71,9 +71,9 @@
     <main>
         <section class="hero">
             <div class="hero-body">
-                <p class="title">This is my Great Great Grandparents House. Hover the mouse over the picture to change
-                    colours.</p>
-                <div class="card new-pic" id="hero"></div>
+                <p class="title">This is my Great Great Grandparents House.  Hover the mouse over the picture to change
+                    colours.</p>              
+                <div class="card new-pic" id="heroImg"></div>
             </div>
         </section>
 
@@ -96,7 +96,7 @@
                                 <ul>
                                     <li>featuring navigation links</li>
                                     <li>block and inline-block techniques</li>
-                                    <li>styling techniques</li>
+                                    <li>styling techniques.</li>
                                 </ul>
                                 <p>Hover and click over the picture to view the application or click here on</p>
                                 <a href="https://susanne85.github.io/my-First-Project/">Kojonup Historical Society</a>.
@@ -121,11 +121,11 @@
                                 <p></p>
                                 <h3>Random Password Generator</h3>
                                 <h4> The user selects the required character sets and length for the generated
-                                    password. It is implemented with the following features:</h4>
+                                    password. It concatenates all the requested character sets into one string and then uses the random math function to generate a password.  It is implemented with the following features:</h4>
                                 <ul>
                                     <li>Modal html structure</li>
-                                    <li>generates a random password</li>
-                                    <li>utilises random math function </li>
+                                    <li>error checking to ensure that at least one character set is selected and that the password length is between 8and 128</li>
+                                    <li>utilises random math function to generate password. </li>
                                 </ul>
                                 <p>Hover and click over the picture to view the application or click here on</p>
                                 <a href="https://susanne85.github.io/generatePasswordModal/">Generate Random
@@ -152,9 +152,9 @@
                                 <h4>This application displays the current weather and five day forecast for a city
                                     or town in Australia. The application utilises the following functionality:</h4>
                                 <ul>
-                                    <li>featuring navigation links</li>
-                                    <li>block and inline-block techniques</li>
-                                    <li>styling techniques</li>
+                                    <li>Openweather API for retrieving the current weather details for a location in Australia</li>
+                                    <li>Use of promises to retrieve data from third parties</li>
+                                    <li>Using local storage to save the towns/cities which have been previously search and retrieving the data and displaying to the user.</li>
                                 </ul>
                                 <p>Hover and click over the picture to view the application or click here on</p>
                                 <a href="https://susanne85.github.io/weatherDashboard/">Weather Forecast</a>.
@@ -180,9 +180,9 @@
                                 <h4>This application allows a user to quickly enter information about an
                                     appointment. The application utilises the following functionality:</h4>
                                 <ul>
-                                    <li>featuring navigation links</li>
-                                    <li>block and inline-block techniques</li>
-                                    <li>styling techniques</li>
+                                    <li>Bulma as the CSS framework</li>
+                                    <li>Google's Placeholder API for auto completing of an address.</li>
+                                    <li>Google's map location API for displaying an address.</li>
                                 </ul>
                                 <p>Hover and click over the picture to view the application or click here on </p>
                                 <a href="https://trushilbudhia.github.io/Easy-Appointment-Tracker/">Easee Appointment
@@ -208,8 +208,10 @@
                             <p>I have learnt the basics of:</p>
                             <ul class="applicationsList">
                                 <li>HTML, CSS, javascript and Bulma as a CSS framework;</li>
-                                <li>Displaying images</li>
-                                <li>Use of the anchor tag to jump to an external website</li>
+                                <li>Displaying images, use of the anchor tag to jump to an external website</li>
+                                <li>Use of local storage to save user data for an application</li>
+                                <li>Web APIs</li>
+                                <li>APIs from third parties such as google and openweather</li>
                             </ul>
                             <a href="https://susanne85.github.io/prework-about-me/" alt="My information">More about Me</a>
                         </div>
@@ -218,27 +220,28 @@
             </div>
         </section>
         <footer id="contactDtls">
-            <h1>Contact via Social Media</h1>
-            <h2>Contact me via any of the following</h2>
+            <span class="h1Colour">Contact via Social Media</span>
+            <br>
+            <span class="h2Colour">Contact me via any of the following</span>
             <ul class="icons">
                 <li>
-                    <a href="https://www.facebook.com/susanne.bilney" alt="FaceBook"><i
-                            class="fa fa-facebook"></i>Facebook</a>
+                    <a href="https://www.facebook.com/susanne.bilney" alt="FaceBook">
+                        <i class="fab fa-facebook"></i>Facebook</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/susanne-bilney-138696123" alt="Linkedin"><i
-                            class="fa fa-linkedin"></i>Linkedn</a>
+                    <a href="https://www.linkedin.com/in/susanne-bilney-138696123" alt="Linkedin">
+                        <i class="fab fa-linkedin"></i>Linkedn</a>
                 </li>
                 <li>
                     <a href="https://www.twitter.com/BilneySusanne" alt="Twitter"><i
-                            class="fa fa-twitter"></i>Twitter</a>
+                        class="fab fa-twitter"></i>Twitter</a>
                 </li>
                 <li>
-                    </span><a href="https://www.instagram.com/susannebilney2" alt="Instagram"><i
-                            class="fa fa-instagram"></i>Instagram</a>
+                    <a href="https://www.instagram.com/susannebilney2" alt="Instagram">
+                        <i class="fab fa-instagram"></i>Instagram</a>
                 </li>
                 <li>
-                    <a href="./form.html"><i class="fa fa-envelope-o"></i>Email</a>
+                    <a href="./form.html"><i class="far fa-envelope"></i>Email</a>
                 </li>
             </ul>
         </footer>
