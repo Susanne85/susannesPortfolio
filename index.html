@@ -13,17 +13,16 @@
 </head>
 
 <body>
-    <header class="content is-large">
-        <span class="h1Colour">Susanne's Treasures</span>
-        <br>
-        <span class="h2Colour">Want a website with a bit of <span class="effects">difference</span> and <span
-                class="effects">flair.</span>
-        </span>
+    <header class="content is-medium has-background-link  mx-5 mb-5">
+        <h1 class="has-text-centered pt-5" id="h1Colour">Susanne's Treasures</h1>
+        <h2 class="has-text-white has-text-centered mb-4 pb-4">Want a website with a bit of <span
+                class="effects">difference</span> and <span class="effects">flair.</span>
+        </h2>
     </header>
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar content is-normal" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item">
+            <a class="navbar-item mx-5">
                 <img src="assets/images/treasure-chest.jpg" width="48">
             </a>
 
@@ -35,17 +34,17 @@
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu content is-large">
+        <div id="navbarPortfolio" class="navbar-menu content is-large">
             <div class="navbar-start">
-                <a class="navbar-item" href="#aboutMe">
+                <a class="navbar-item" id="navbar-item" href="#aboutMe">
                     About Me
                 </a>
 
-                <a class="navbar-item" href="#contactDtls">
+                <a class="navbar-item" id="navbar-item" href="#contactDtls">
                     Contact
                 </a>
 
-                <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-item has-dropdown is-hoverable ">
                     <a class="navbar-link">
                         Portfolio
                     </a>
@@ -66,52 +65,54 @@
                     </div>
                 </div>
             </div>
+        </div>
     </nav>
 
     <main>
         <section class="hero">
-            <div class="hero-body">
-                <p class="title">This is my Great Great Grandparents House.  Hover the mouse over the picture to change
-                    colours.</p>              
-                <div class="card new-pic" id="heroImg"></div>
+            <div class="hero-body p-0">
+                <p class="title mx-5">This is my Great Great Grandparents House. Hover the mouse over the picture to
+                    change
+                    colours.</p>
+                <div class="card new-pic mx-5" id="heroImg"></div>
             </div>
         </section>
 
-        <section class="columns is-2 card-columns">
-            <div class="column is-half card-columns-nested" id="kojonupHistoricalSociety">
+        <section class="columns is-2 card-columns is-full m-3">
+            <div class="column is-half card-columns-nested mb-3" id="kojonupHistoricalSociety">
                 <div class="card ">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left is-fullwidth is-fullheight">
                                 <figure class="image is-128x128 ">
-                                    <a href="https://susanne85.github.io/my-First-Project/">
+                                    <a href="https://susanne85.github.io/my-First-Project/" target="_html">
                                         <img src="assets/images/firstProject.png" alt="Kojonup Historical Society">
                                     </a>
                                 </figure>
                             </div>
                             <div class="content is-small">
                                 <p></p>
-                                <h3>Kojonup Historical Society application.</h3>
-                                <h4>This application displays the following functionality:</h4>
+                                <h2>Kojonup Historical Society application.</h2>
+                                <h3>This application displays the following functionality:</h3>
                                 <ul>
                                     <li>featuring navigation links</li>
                                     <li>block and inline-block techniques</li>
                                     <li>styling techniques.</li>
                                 </ul>
-                                <p>Hover and click over the picture to view the application or click here on</p>
-                                <a href="https://susanne85.github.io/my-First-Project/">Kojonup Historical Society</a>.
+                                <h4>Hover and click over the picture to view the application or click here on</h4>
+                                <a href="https://susanne85.github.io/my-First-Project/" target="_html">Kojonup Historical Society</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="column is-half card-columns-nested" id="randomPasswordGenerator">
+            <div class="column is-half card-columns-nested mb-3" id="randomPasswordGenerator">
                 <div class="card ">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left ">
                                 <figure class="image is-128x128">
-                                    <a href="https://susanne85.github.io/generatePasswordModal/">
+                                    <a href="https://susanne85.github.io/generatePasswordModal/" target="_html">
                                         <img src="assets/images/dreamtime_picture.jpg" alt="Generate Random Password"
                                             class="image is-128x128">
                                     </a>
@@ -119,132 +120,133 @@
                             </div>
                             <div class="content is-small">
                                 <p></p>
-                                <h3>Random Password Generator</h3>
-                                <h4> The user selects the required character sets and length for the generated
-                                    password. It concatenates all the requested character sets into one string and then uses the random math function to generate a password.  It is implemented with the following features:</h4>
+                                <h2>Random Password Generator</h2>
+                                <h3> The user selects the required character sets and length for the generated
+                                    password. It concatenates all the requested character sets into one string and then
+                                    uses the random math function to generate a password. It is implemented with the
+                                    following features:</h3>
                                 <ul>
                                     <li>Modal html structure</li>
-                                    <li>error checking to ensure that at least one character set is selected and that the password length is between 8and 128</li>
+                                    <li>error checking to ensure that at least one character set is selected and that
+                                        the password length is between 8and 128</li>
                                     <li>utilises random math function to generate password. </li>
                                 </ul>
-                                <p>Hover and click over the picture to view the application or click here on</p>
-                                <a href="https://susanne85.github.io/generatePasswordModal/">Generate Random
-                                    Password</a>.
+                                <h4>Hover and click over the picture to view the application or click here on</h4>
+                                <a href="https://susanne85.github.io/generatePasswordModal/" target="_html">Generate Random
+                                    Password</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="column is-half card-columns-nested" id="weatherForecast">
+            <div class="column is-half card-columns-nested mb-3" id="weatherForecast">
                 <div class="card ">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <a href="https://susanne85.github.io/weatherDashboard/">
+                                    <a href="https://susanne85.github.io/weatherDashboard/" target="_html">
                                         <img src="assets/images/weather.jpg" alt="Weather Forecast">
                                     </a>
                                 </figure>
                             </div>
                             <div class="content is-small">
                                 <br>
-                                <h3>Weather Forecast for a city or town in Australia.</h3>
-                                <h4>This application displays the current weather and five day forecast for a city
-                                    or town in Australia. The application utilises the following functionality:</h4>
+                                <h2>Weather Forecast for a city or town in Australia.</h2>
+                                <h3>This application displays the current weather and five day forecast for a city
+                                    or town in Australia. The application utilises the following functionality:</h3>
                                 <ul>
-                                    <li>Openweather API for retrieving the current weather details for a location in Australia</li>
+                                    <li>Openweather API for retrieving the current weather details for a location in
+                                        Australia</li>
                                     <li>Use of promises to retrieve data from third parties</li>
-                                    <li>Using local storage to save the towns/cities which have been previously search and retrieving the data and displaying to the user.</li>
+                                    <li>Using local storage to save the towns/cities which have been previously search
+                                        and retrieving the data and displaying to the user.</li>
                                 </ul>
-                                <p>Hover and click over the picture to view the application or click here on</p>
-                                <a href="https://susanne85.github.io/weatherDashboard/">Weather Forecast</a>.
+                                <h4>Hover and click over the picture to view the application or click here on</h4>
+                                <a href="https://susanne85.github.io/weatherDashboard/" target="_html">Weather Forecast</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="column is-half card-columns-nested" id="easyAppointmentTracker">
+            <div class="column is-half card-columns-nested mb-3" id="easyAppointmentTracker">
                 <div class="card ">
                     <div class="card-content">
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <a href="https://trushilbudhia.github.io/Easy-Appointment-Tracker/">
+                                    <a href="https://trushilbudhia.github.io/Easy-Appointment-Tracker/" target="_html">
                                         <img src="assets/images/app-icon.png" alt="Easee Appointment Tracker">
                                     </a>
                                 </figure>
                             </div>
                             <div class="content is-small">
                                 <br>
-                                <h3>Easy Appointment Tracker</h3>
-                                <h4>This application allows a user to quickly enter information about an
-                                    appointment. The application utilises the following functionality:</h4>
+                                <h2>Easy Appointment Tracker</h2>
+                                <h3>This application allows a user to quickly enter information about an
+                                    appointment. The application utilises the following functionality:</h3>
                                 <ul>
                                     <li>Bulma as the CSS framework</li>
                                     <li>Google's Placeholder API for auto completing of an address.</li>
                                     <li>Google's map location API for displaying an address.</li>
                                 </ul>
-                                <p>Hover and click over the picture to view the application or click here on </p>
-                                <a href="https://trushilbudhia.github.io/Easy-Appointment-Tracker/">Easee Appointment
-                                    Tracker</a>.
+                                <h4>Hover and click over the picture to view the application or click here on </h4>
+                                <a href="https://trushilbudhia.github.io/Easy-Appointment-Tracker/" target="_html">Easee Appointment
+                                    Tracker</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-        <br>
-        <section class="container is-fullwidth" id="aboutMe">
-            <div class="card ">
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-128x128">
-                                <img src="assets/images/myself.jpg" alt="Me in China">
-                            </figure>
-                        </div>
-                        <div class="content is-small">
-                            <h3>I love to create websites that are creative and meet the needs of my customers.</h3>
-                            <p>I have learnt the basics of:</p>
-                            <ul class="applicationsList">
-                                <li>HTML, CSS, javascript and Bulma as a CSS framework;</li>
-                                <li>Displaying images, use of the anchor tag to jump to an external website</li>
-                                <li>Use of local storage to save user data for an application</li>
-                                <li>Web APIs</li>
-                                <li>APIs from third parties such as google and openweather</li>
-                            </ul>
-                            <a href="https://susanne85.github.io/prework-about-me/" alt="My information">More about Me</a>
-                        </div>
+        <section class="card is-full mx-5" id="aboutMe">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="assets/images/myself.jpg" target="_html" alt="Me in China">
+                        </figure>
+                    </div>
+                    <div class="content is-small">
+                        <h3>I love to create websites that are creative and meet the needs of my customers.</h3>
+                        <p>I have learnt the basics of:</p>
+                        <ul class="applicationsList">
+                            <li>HTML, CSS, javascript and Bulma as a CSS framework;</li>
+                            <li>Displaying images, use of the anchor tag to jump to an external website</li>
+                            <li>Use of local storage to save user data for an application</li>
+                            <li>Web APIs</li>
+                            <li>APIs from third parties such as google and openweather</li>
+                        </ul>
+                        <a href="https://susanne85.github.io/prework-about-me/" target="_html" alt="My information">More about
+                            Me</a>
                     </div>
                 </div>
             </div>
         </section>
-        <footer id="contactDtls">
-            <span class="h1Colour">Contact via Social Media</span>
-            <br>
-            <span class="h2Colour">Contact me via any of the following</span>
+        <section class="footer content is-medium has-background-link m-5 pb-5" id="contactDtls">
+            <h1 class="has-text-centered" id="h1Colour">Contact via Social Media</h1>
+            <h2 class="has-text-white has-text-centered mt-0">Contact me via any of the following</h2>
             <ul class="icons">
                 <li>
-                    <a href="https://www.facebook.com/susanne.bilney" alt="FaceBook">
-                        <i class="fab fa-facebook"></i>Facebook</a>
+                    <a href="https://www.facebook.com/susanne.bilney" target="_html" alt="FaceBook">
+                        <i class="fab fa-facebook mr-5"></i>Facebook</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/susanne-bilney-138696123" alt="Linkedin">
-                        <i class="fab fa-linkedin"></i>Linkedn</a>
+                    <a href="https://www.linkedin.com/in/susanne-bilney-138696123" target="_html" alt="Linkedin">
+                        <i class="fab fa-linkedin mr-5"></i>Linkedn</a>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com/BilneySusanne" alt="Twitter"><i
-                        class="fab fa-twitter"></i>Twitter</a>
+                    <a href="https://www.twitter.com/BilneySusanne"  target="_html"alt="Twitter"><i
+                            class="fab fa-twitter mr-5"></i>Twitter</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/susannebilney2" alt="Instagram">
-                        <i class="fab fa-instagram"></i>Instagram</a>
+                    <a href="https://www.instagram.com/susannebilney2" target="_html" alt="Instagram">
+                        <i class="fab fa-instagram mr-5"></i>Instagram</a>
                 </li>
                 <li>
-                    <a href="./form.html"><i class="far fa-envelope"></i>Email</a>
+                    <a href="./form.html" target="_html"><i class="far fa-envelope mr-5"></i>Email</a>
                 </li>
             </ul>
-        </footer>
+        </section>
     </main>
     <script src="assets/js/script.js"></script>
 </body>
