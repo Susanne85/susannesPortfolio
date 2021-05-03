@@ -8,7 +8,7 @@
     --textPink: rgb(193, 28, 214);
     font-size: 100%;
 }
-
+ 
 #h1Colour {
     color:var(--textPink);
 }
@@ -84,12 +84,11 @@ a:hover {
     flex-direction:row;
     flex:1 1 auto;
     list-style-type: none;
-    margin-top:15px;
 }
 
 .icons li a {
    justify-content: space-evenly;
-    color:white;
+    color: black;
 }
 
 @keyframes example {
