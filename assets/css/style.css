@@ -9,7 +9,7 @@
     font-size: 100%;
 }
  
-#h1Colour {
+#pinkColour {
     color:var(--textPink);
 }
 
@@ -51,12 +51,6 @@ h3{
     height: 100%;
     width:100%;
 }
-
-a{
-    color:var(--textPink);
-    font-size:1.5rem;
-} 
-
 .old-pic{
     background-image: url(../images/house-black.jpg)
 }
@@ -74,21 +68,6 @@ a{
 
 a:hover {
     color:black;
-}
-
-.icons {
-    display:flex;
-}
-
-.icons li{
-    flex-direction:row;
-    flex:1 1 auto;
-    list-style-type: none;
-}
-
-.icons li a {
-   justify-content: space-evenly;
-    color: black;
 }
 
 @keyframes example {
